@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+}
+a:hover{
+    text-decoration: none;
+}
+.section-padding{
+    padding: 70px;
+}
+/* Adding Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+.header{
+    background: linear-gradient(-40deg, #FBF1D5, #fff);
+    height: auto;
+}
+
+/* Header Navigation Styles */
+.header-nav {
+    min-height: 90px;
+}
+.navbar-brand img{
+    width: 100%;
+    height: auto;
+}
+.main-menu ul li{
+    margin-left: 26px;
+    text-align: center;
+}
+.main-menu ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: #070A57;
+    font-weight: 500;
+    font-size: 16px;
+}
+.main-menu ul li:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+button.nav-button{
+    background:#FFBA00;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    vertical-align: middle;
+    margin-top: -5px;
+    border-radius: 5px;
+}
+
+/* Header Banner Area Styles */
+
+.container.header-content {
+    height: 100%;
+}
+.highlight{
+    color: #FFBA00;
+}
+.left-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #070A57;
+}
+.centralize{
+    display: flex;
+    align-items: center;
+}
+.left-content p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #64707D;
+}
+.call-to-action button {
+    background: #FFBA00;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.call-to-action button:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.call-to-action a {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFBA00;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+.right-content img{
+    width: auto;
+    height: 25rem;
+    padding-left: 30px;
+}
+
+/* Services styles  */
+.services{
+    background: linear-gradient(30deg, #FBF1D5, #fff);
+}
+.service-heading {
+    font-family: 'Roboto',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #070A57;
+}
+section.services {
+    text-align: center;
+}
+.card-row-gap {
+    padding-bottom: 2rem;
+}
+.card-body{
+background-color: #ffebef;
+
+}
+a.card-body{
+    text-decoration: underline;
+}
+
+/* why choose leadsbee */
+
+.service-type-gap {
+ padding-bottom: 8rem;
+}
+h2.col-md-6 {
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+/* lets start */
+
+
+
+/* Footer Styles */
+
+.footer{
+    background: linear-gradient(30deg, #FBF1D5, #fff);
+}
+.footer-widget-1 p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-widget-2 h3,.footer-widget-3 h3 {font-family: 'Roboto',sans-serif;font-size: 26px;font-weight: 500;line-height: 35px;}
+
+.footer-widget-2 ul li,.footer-widget-3 ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-widget-2 ul li a,.footer-widget-3 ul li a {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #64707D;
+}
+.footer-widget-4 p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-widget-4 ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 10px;
+    font-size: 27px;
+}
+.footer-widget-4 ul li a {
+    color: #DDDDDD;
+}
+
+.footer-widget-4 ul li a:hover {
+    color: #FFBA00;
+    transition: all 0.5s ease-in-out;
+}

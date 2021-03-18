@@ -1,0 +1,88 @@
+
+/* Project Page  */
+@media only screen and (max-width: 576px) {
+    
+    .left-content h2{
+        font-size: 45px;
+    }
+    .service-heading{
+        font-size: 35px;
+    }
+    h2.portfolio-heading,section.portfolio-call-to-action h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .section-padding{
+        padding: 30px;
+    }
+    button.project-button-1{
+        margin-bottom: 20px;
+    }
+    .testimonial-description h3{
+        font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .coma{
+        left: 0%;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    a.carousel-control-prev.testimonial-control{
+        top: 85%;
+    }
+    a.carousel-control-next.testimonial-control{
+        top: 85%;
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .client-picture img{
+          max-height: 350px;
+      }
+      .client-picture img.coma{
+          top:55%;
+          left: 5%;
+      }
+  }
+
+
+  /* Team Page  */
+
+  @media only screen and (max-width: 992px){
+    .achivement-item{
+        margin-top: 45px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .blog-container .row{
+        margin-bottom: 40px;
+    }
+  }
+  
+/* Contact Us Page  */
+
+  @media only screen and (max-width: 768px){
+    .office-block{
+        margin-bottom: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px){
+    .partner img{
+        margin-bottom: 25px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .partner img{
+        margin-bottom: 35px;
+    }
+  }
+  
+  /* Service Details Page  */
+  
+  @media only screen and (max-width:768px){
+	  .contact-header .right-content img{
+		  width:70% !important;
+	  }
+  }
